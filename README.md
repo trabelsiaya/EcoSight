@@ -47,4 +47,4 @@ With **EcoSight**, every user becomes an environmental conservationist. Captured
 *To be added later*
 
 ## Certification and Grading
-![alt text](images\certif.png)
+![alt text](certif.png)
