@@ -41,7 +41,6 @@ This app bridges the gap between advanced ecological monitoring and user accessi
 
 ### iOS Application
 1. **Real-Time Interaction**:
-   - Allows users to initiate photo capture via Raspberry Pi.
    - Displays results immediately after cloud processing.
 2. **Personal Dashboard**:
    - Lists plants analyzed, including health indices and species classification.
