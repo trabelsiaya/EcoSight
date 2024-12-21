@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EcoSight Dashboard</title>
+    <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="/css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <link rel="icon" href="img/plante.png" type="image/png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#C8E6C9">
+</head>
+<body class="grey lighten-4">
+    <!-- Top Nav -->
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+          <a href="/" class="brand-logo">
+            <img src="img/plante.png" alt="App Icon" style="height: 40px; vertical-align: middle; margin-right: 10px;" loading="lazy">
+            Eco<span>Sight</span>
+          </a>
+          <span class="right grey-text text-darken-1">
+            <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+          </span>
+        </div>
+    </nav>
+
+    <!-- Side Nav -->
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">EcoSight Menu</a></li>
+        <li><a href="/" class="waves-effect">Dashboard</a></li>
+        <li><a href="/pages/about.html" class="waves-effect">About</a></li>
+        <li><a href="/pages/contact.html" class="waves-effect">Contact</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#" class="waves-effect">Settings</a></li>
+        <li><a href="/pages/login.html" class="waves-effect">
+            <i class="material-icons">person_outline</i>Login</a>
+        </li>
+        <li><a href="#" id="logout-btn" class="waves-effect">
+            <i class="material-icons">exit_to_app</i>Logout</a>
+        </li>
+        <li><a href="/pages/signup.html" class="waves-effect">
+            <i class="material-icons">person_add</i>Sign Up</a>
+        </li>  
+    </ul>
+
+    <!-- Dashboard Content -->
+    <div class="container section">
+        <!-- Section: Personal Dashboard -->
+        <h5 class="center-align">Personal Dashboard</h5>
+
+        <!-- Real-Time Capture -->
+        <div class="card-panel green lighten-5">
+            <h6>Real-Time Capture</h6>
+            <div class="row">
+                <div class="col s12 m6">
+                    <p>Start capturing plant details using EcoSight. Results will be displayed here in real-time.</p>
+                    <button class="btn green waves-effect waves-light">
+                        <i class="material-icons left">camera_alt</i>Capture Now
+                    </button>
+                </div>
+                <div class="col s12 m6">
+                    <img src="/img/placeholder.png" alt="Live Capture" class="responsive-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="plant-gallery-container">
+            <div class="plant-gallery">
+              <img src="/img/plants/plant1.png" alt="Plant 1" class="plant-image">
+              <img src="/img/plants/plant2.png" alt="Plant 2" class="plant-image">
+              <img src="/img/plants/plant3.png" alt="Plant 3" class="plant-image">
+              <img src="/img/plants/plant4.png" alt="Plant 4" class="plant-image">
+              <img src="/img/plants/plant5.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant6.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant7.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant8.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant9.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant10.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant11.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant12.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant13.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant14.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant15.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant16.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant17.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant18.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant19.png" alt="Plant 5" class="plant-image">
+              <img src="/img/plants/plant20.png" alt="Plant 5" class="plant-image">
+            </div>
+        </div>
+                  
+
+        <!-- List of Plants -->
+        <div class="section">
+            <h6>List of Analyzed Plants</h6>
+            <div class="row">
+                <!-- Example Plant Card -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/img/sunflower.png" alt="Plant Image">
+                            <span class="card-title green-text text-darken-3">Sunflower</span>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Health Index:</strong> NDVI 0.78</p>
+                            <p><strong>Date:</strong> 2024-06-12</p>
+                            <p><strong>Location:</strong> Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more cards dynamically here -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/img/rose.png" alt="Plant Image">
+                            <span class="card-title green-text text-darken-3">Rose</span>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Health Index:</strong> NDVI 0.65</p>
+                            <p><strong>Date:</strong> 2024-06-14</p>
+                            <p><strong>Location:</strong> Lyon, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/img/plants/plant12.png" alt="Plant Image">
+                            <span class="card-title green-text text-darken-3">Flower</span>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Health Index:</strong> NDVI 0.65</p>
+                            <p><strong>Date:</strong> 2024-06-14</p>
+                            <p><strong>Location:</strong> Lyon, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Observation Statistics -->
+        <div class="section">
+            <h6>Observation Statistics</h6>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel teal lighten-4 center-align">
+                        <h6>Most Observed Species</h6>
+                        <p>Sunflower</p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel teal lighten-4 center-align">
+                        <h6>Average Health Index</h6>
+                        <p>NDVI 0.72</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Graphs Section -->
+        <div class="section">
+            <h6>Interactive Graphs</h6>
+            <div class="card-panel">
+                <img src="/img/graph-placeholder.png" alt="Graph" class="responsive-img">
+                <p class="center-align">Graphs showing plant health trends and species distribution over time.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <div class="center">
+        <a class="btn-floating btn-small btn-large add-btn sidenav-trigger hidden" data-target="side-form" id="add-btn">
+          <i class="material-icons">add</i>
+        </a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="center-align">© 2024 EcoSight. All rights reserved.</p>
+        </div>
+    </footer>  
+
+    <script src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/ui.js"></script>
+    <script>
+        const gallery = document.querySelector('.plant-gallery');
+        const images = document.querySelectorAll('.plant-image');
+        const imageCount = images.length;
+        let currentIndex = 0;
+      
+        // Function to shift images and create the loop effect
+        function loopImages() {
+          currentIndex++;
+          if (currentIndex === imageCount) {
+            currentIndex = 0;
+          }
+          gallery.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+      
+        // Loop the images every 3 seconds
+        setInterval(loopImages, 3000);
+      </script>         
+</body>
+</html>
