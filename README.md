@@ -12,10 +12,6 @@ This project implements a system to control a camera on a Raspberry Pi via MQTT,
 4. [Project Structure](#project-structure)
 5. [How It Works](#how-it-works)
 6. [Testing the System](#testing-the-system)
-7. [Future Extensions](#future-extensions)
-8. [Contributions](#contributions)
-9. [License](#license)
-
 ---
 
 ## **Project Description**
