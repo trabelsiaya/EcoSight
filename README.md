@@ -191,12 +191,9 @@ The repository serves as a comprehensive guide for similar classification tasks,
    python scripts/train_model.py
    ```
 
-4. Evaluate the model:
-   ```bash
-   python scripts/evaluate_model.py
-   ```
 
-5. Visualize results:
+
+4. Visualize results:
    - View confusion matrices in the `results/` directory.
    - Analyze loss curves using the saved plots.
 
