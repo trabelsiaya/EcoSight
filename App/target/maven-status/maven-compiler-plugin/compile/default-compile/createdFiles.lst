@@ -1,0 +1,15 @@
+tn\supcom\appsec\bounadaries\SignUpEndpoint.class
+tn\supcom\appsec\entities\FieldPropertyVisibilityStrategy.class
+tn\supcom\appsec\repositories\UserRepository.class
+tn\supcom\appsec\Utilities\Identity.class
+tn\supcom\appsec\bounadaries\JWKEndpoint.class
+tn\supcom\appsec\bounadaries\SignInEndpoint.class
+tn\supcom\appsec\JaxRSActivator.class
+tn\supcom\appsec\Utilities\Argon2Utility.class
+tn\supcom\appsec\security\JwtManager.class
+tn\supcom\appsec\entities\User.class
+tn\supcom\appsec\entities\CORS.class
+tn\supcom\appsec\bounadaries\PushWebsocket.class
+tn\supcom\appsec\controllers\UserManager.class
+tn\supcom\appsec\controllers\MessageDispatcher.class
+tn\supcom\appsec\bounadaries\OAuthTokenEndpoint.class

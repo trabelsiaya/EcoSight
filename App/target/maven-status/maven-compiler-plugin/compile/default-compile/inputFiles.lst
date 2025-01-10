@@ -1,0 +1,15 @@
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\security\JwtManager.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\controllers\UserManager.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\entities\FieldPropertyVisibilityStrategy.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\bounadaries\SignUpEndpoint.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\bounadaries\PushWebsocket.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\entities\User.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\JaxRSActivator.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\bounadaries\OAuthTokenEndpoint.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\bounadaries\SignInEndpoint.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\bounadaries\JWKEndpoint.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\repositories\UserRepository.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\Utilities\Identity.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\Utilities\Argon2Utility.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\controllers\MessageDispatcher.java
+d:\EcoSight\AppSec\src\main\java\tn\supcom\appsec\entities\CORS.java

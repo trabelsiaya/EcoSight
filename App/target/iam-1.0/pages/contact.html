@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact EcoSight</title>
+        <!-- Link your CSS and Materialize CSS -->
+        <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" href="/css/styles.css" rel="stylesheet">
+        <meta name="theme-color" content="#C8E6C9">
+    </head>
+<body>
+    <!-- Top Nav -->
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+          <a href="/" class="brand-logo">
+            <img src="/img/plante.png" alt="App Icon" style="height: 40px; vertical-align: middle; margin-right: 10px;" loading="lazy">
+            Eco<span>Sight</span>
+          </a>
+          <span class="right grey-text text-darken-1">
+            <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+          </span>
+        </div>
+    </nav>
+
+    <!-- Side Nav -->
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">EcoSight Menu</a></li>
+        <li><a href="/" class="waves-effect">Dashboard</a></li>
+        <li><a href="/pages/about.html" class="waves-effect">About</a></li>
+        <li><a href="/pages/contact.html" class="waves-effect">Contact</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#" class="waves-effect">Settings</a></li>
+        <li><a href="/pages/signin.html" class="waves-effect">
+            <i class="material-icons">person_outline</i>signin</a>
+        </li>
+        <li><a href="#" id="logout-btn" class="waves-effect">
+            <i class="material-icons">exit_to_app</i>Logout</a>
+        </li>
+        <li><a href="/pages/signup.html" class="waves-effect">
+            <i class="material-icons">person_add</i>Sign Up</a>
+        </li>  
+    </ul>
+
+    <!-- Main Section -->
+    <div class="container">
+        <h3 class="center-align green-text text-darken-3">Contact Us</h3>
+        <p class="flow-text center-align">
+            Have questions or need assistance? Feel free to reach out to us. We’d love to hear from you!
+        </p>
+
+        <!-- Contact Form -->
+        <div class="row">
+            <form class="col s12 m8 offset-m2">
+                <div class="input-field">
+                    <input id="name" type="text" class="validate" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-field">
+                    <input id="email" type="email" class="validate" required>
+                    <label for="email">Your email</label>
+                </div>
+                <div class="input-field">
+                    <textarea id="message" class="materialize-textarea" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <div class="center-align">
+                    <button type="submit" class="btn green darken-3">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="row">
+            <div class="col s12 m6">
+                <h5 class="green-text text-darken-3"><i class="material-icons left">location_on</i>Our Address</h5>
+                <p>123 EcoStreet, Sustainability City, Green World</p>
+            </div>
+            <div class="col s12 m6">
+                <h5 class="green-text text-darken-3"><i class="material-icons left">email</i>email Us</h5>
+                <p>contact@ecosight.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="center-align" style="margin: 0;">© 2024 EcoSight. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Materialize JavaScript -->
+    <script src="/js/ui.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

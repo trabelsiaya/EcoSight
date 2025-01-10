@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <link rel="icon" href="/img/plante.png" type="image/png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#C8E6C9">
+</head>
+<body class="grey lighten-4">
+    <div class="center" style="display: flex; align-items: center; justify-content: center; margin-top: 20px;">
+        <img src="/img/plante.png" alt="App Icon" style="height: 60px; margin-right: 10px;">
+        <h4 style="margin: 0; font-weight: 600; color: #4CAF50;">EcoSight</h4>
+    </div>         
+  <div class="container">
+    <h5 class="center">Sign Up</h5>
+    <form id="signup-form" class="section">
+      <div class="input-field">
+        <input id="inputUserName" type="text" placeholder="Your name" required>
+        <label for="inputUserName">Your name</label>
+      </div>
+      <div class="input-field">
+        <input id="inputemail" type="email" placeholder="Email" required>
+        <label for="inputemail">email</label>
+      </div>
+      <div class="input-field">
+        <input id="inputPassword" type="password" placeholder="Password" required>
+        <label for="inputPassword">Password</label>
+      </div>
+      <div class="input-field">
+        <input id="signup-confirm-password" type="password" placeholder="Confirm Password" required>
+        <label for="signup-confirm-password">Confirm Password</label>
+      </div>
+      <div class="input-field center">
+        <button class="btn waves-effect" id="signup-button">Sign Up</button>
+      </div>
+    </form>
+    <p class="center">Already have an account? <a href="/pages/signin.html">Log In</a></p>     
+  </div>
+  <div class="input-field center">
+    <a href="/index.html" class="btn grey lighten-1 black-text waves-effect">
+      Back to Home
+    </a>
+</div>
+<footer>
+  <div class="container">
+      <p class="center-align">© 2024 EcoSight. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/app.js"></script>   
+<script src="/js/signup.js"></script>
+</body>
+</html>

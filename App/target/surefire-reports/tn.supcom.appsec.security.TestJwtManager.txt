@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tn.supcom.appsec.security.TestJwtManager
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 s -- in tn.supcom.appsec.security.TestJwtManager

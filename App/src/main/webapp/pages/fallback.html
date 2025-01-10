@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9fbe7;
+        }
+        .fallback-container {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .fallback-container .material-icons {
+            font-size: 80px;
+            color: #8bc34a;
+        }
+        .fallback-container h4 {
+            font-size: 24px;
+            color: #4caf50;
+            margin-top: 20px;
+        }
+        .fallback-container p {
+            font-size: 18px;
+            color: #757575;
+        }
+        .btn-home {
+            margin-top: 20px;
+            background-color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+
+<div class="fallback-container">
+    <i class="material-icons">error_outline</i>
+    <h4>Oops! Something went wrong</h4>
+    <p>The page you are looking for might be offline or doesn’t exist.</p>
+    <a href="/" class="btn btn-home waves-effect waves-light">Go to Home</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

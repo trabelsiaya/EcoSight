@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About EcoSight</title>
+    <!-- Link your CSS and Materialize CSS -->
+    <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="/css/styles.css" rel="stylesheet">
+    <meta name="theme-color" content="#C8E6C9">
+</head>
+<body>
+    <!-- Top Nav -->
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+          <a href="/" class="brand-logo">
+            <img src="/img/plante.png" alt="App Icon" style="height: 40px; vertical-align: middle; margin-right: 10px;" loading="lazy">
+            Eco<span>Sight</span>
+          </a>
+          <span class="right grey-text text-darken-1">
+            <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+          </span>
+        </div>
+    </nav>
+
+    <!-- Side Nav -->
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">EcoSight Menu</a></li>
+        <li><a href="/" class="waves-effect">Dashboard</a></li>
+        <li><a href="/pages/about.html" class="waves-effect">About</a></li>
+        <li><a href="/pages/contact.html" class="waves-effect">Contact</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#" class="waves-effect">Settings</a></li>
+        <li><a href="/pages/signin.html" class="waves-effect">
+            <i class="material-icons">person_outline</i>signin</a>
+        </li>
+        <li><a href="#" id="logout-btn" class="waves-effect">
+            <i class="material-icons">exit_to_app</i>Logout</a>
+        </li>
+        <li><a href="/pages/signup.html" class="waves-effect">
+            <i class="material-icons">person_add</i>Sign Up</a>
+        </li>  
+    </ul>
+
+    <!-- Main Section -->
+    <div class="container">
+        <h3 class="center-align green-text text-darken-3" style="font-weight: bold;">About EcoSight</h3>
+        <p class="flow-text" style="text-align: center; line-height: 1.6;">
+            EcoSight is a modern web application designed to help analyze and monitor plant health 
+            using cutting-edge technology. Our goal is to provide easy-to-understand data for 
+            eco-enthusiasts, farmers, and researchers to make informed decisions for better plant care.
+        </p>
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card hoverable">
+                    <div class="card-content center">
+                        <i class="material-icons large green-text text-darken-3" style="font-size: 3rem;">nature</i>
+                        <h5 class="green-text text-darken-3" style="font-weight: bold;">Plant Monitoring</h5>
+                        <p>Track your plant's health indices like NDVI to ensure optimal growth conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card hoverable">
+                    <div class="card-content center">
+                        <i class="material-icons large green-text text-darken-3" style="font-size: 3rem;">eco</i>
+                        <h5 class="green-text text-darken-3" style="font-weight: bold;">Eco-Friendly Insights</h5>
+                        <p>EcoSight promotes sustainability by providing actionable environmental tips.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card hoverable">
+                    <div class="card-content center">
+                        <i class="material-icons large green-text text-darken-3" style="font-size: 3rem;">bar_chart</i>
+                        <h5 class="green-text text-darken-3" style="font-weight: bold;">Data Visualization</h5>
+                        <p>Beautiful charts and graphs to make your plant data easy to understand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <h4 class="green-text text-darken-3" style="font-weight: bold;">Meet the Team</h4>
+        <p class="flow-text" style="text-align: center; line-height: 1.6;">
+            EcoSight is developed by a passionate team dedicated to merging technology with sustainability.
+        </p>
+        
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="/img/team_member_1.jpg" alt="Team Member 1" style="height: 200px; object-fit: cover;">
+                    </div>
+                    <div class="card-content center">
+                        <h5 class="green-text text-darken-3">Jane Doe</h5>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="/img/team_member_2.jpg" alt="Team Member 2" style="height: 200px; object-fit: cover;">
+                    </div>
+                    <div class="card-content center">
+                        <h5 class="green-text text-darken-3">John Smith</h5>
+                        <p>Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>              
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="center-align" style="margin: 0;">© 2024 EcoSight. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Materialize JavaScript -->
+    <script src="/js/app.js"></script>
+    <script src="/js/ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
