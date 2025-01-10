@@ -1,0 +1,8 @@
+torch==2.0.1 
+torchvision==0.15.2  # Compatible with the PyTorch version
+Pillow==9.5.0  # For image processing
+numpy==1.23.5  # For numerical computations
+matplotlib==3.6.2  # For plotting and visualizations
+seaborn==0.12.2  # For advanced plotting (e.g., confusion matrix)
+scikit-learn==1.1.3  # For classification report and clustering
+tqdm==4.64.1  # For progress bars
